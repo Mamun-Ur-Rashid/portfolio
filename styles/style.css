@@ -152,7 +152,56 @@ nav a.active {
     object-fit: cover;
     
 }
+/* about me section style */
+#about {
+    margin: 20px 0;
+    
+}
+#about h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    
+}
+.about {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.about .about-img {
+    position: relative;
+    width: 450px;
+    height: 450px;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: auto;
+    overflow: hidden;
+}
+.about .about-img img {
+    position: absolute;
+    top: 5px;
+    padding: 5px;
 
+}
+.about-info h3{
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgba(95, 95, 231, 0.815);
+}
+.about-info p{
+    padding: 5px;
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+}
+/* gradient button */
 .btn-grad {background-image: linear-gradient(to right, rgba(95, 95, 231, 0.815) 0%, rgba(95, 95, 121, 0.815)  51%, rgba(95, 95, 231, 0.915)  100%)}
 .btn-grad {
    margin: 10px;
