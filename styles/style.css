@@ -17,7 +17,10 @@ nav{
     color: white;
     height: 60px;
     padding: 5px;
-    position: sticky;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
     
 }
 nav a {
@@ -204,7 +207,40 @@ nav a.active {
     line-height: 1.5em;
     margin-bottom: 15px;
 }
-
+/* project section style */
+.project-container {
+    margin-top: 60px;
+}
+.project-container h1 {
+    text-align: center;
+    font-size: 52px;
+    font-weight: 800px;
+    text-transform: uppercase;
+}
+.project-container p {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+.all-project {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    padding: 5px;
+}
+.project-info img {
+    width: 95%;
+    height: 350px;
+}
+.project-card h6{
+    font-size: 16px;
+    margin: 5px 0;
+}
+.project-card p {
+    font-size: 14px;
+}
 /* contact me section style */
 .contact-container {
     background-image: linear-gradient(to right, rgba(197, 210, 211, 0), rgba(153, 196, 199, 0.87));
@@ -328,4 +364,7 @@ nav a.active {
    background-position: right center; /* change the direction of the change here */
    color: #fff;
    text-decoration: none;
+ }
+ .aboutMe {
+    margin-top: 1200px;
  }
