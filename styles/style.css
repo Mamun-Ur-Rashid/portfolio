@@ -66,7 +66,7 @@ nav a.active {
     color: rgba(95, 95, 231, 0.815);
 }
 .hero-info h2{
-    font-size: 42px;
+    font-size: 35px;
 
 }
 .hero-info p {
@@ -268,6 +268,45 @@ nav a.active {
 }
 .contact-right img{
     width: 500px;
+}
+
+/* footer section style */
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: gray;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    color: white;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.footer-logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.social-icon a {
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid rgba(95, 95, 231, 0.815);
+    border-radius: 50%;
+    font-size: 20px;
+    color: rgba(95, 95, 231, 0.815);
+    margin: 0 8px;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+.social-icon a:hover {
+    background: rgba(95, 95, 231, 0.815);
+    color: black;
+    box-shadow: 0 0 10px rgba(95, 95, 231, 0.815);
 }
 
 /* gradient button */
