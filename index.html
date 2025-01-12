@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    </style>
 
     <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
     <!-- header -->
     <header>
@@ -32,20 +37,24 @@
             <h2>Hi, I am</h2>
             <h1>Mamun-Ur-Rashid</h1>
             <h2>I'm a <span class="animated-text">
-                <span>Web DEveloper</span>
-                <span>Frontend Developer</span>
-                <span>Full Stack Developer</span>
-            </span>
-                
+                    <span>Web DEveloper</span>
+                    <span>Frontend Developer</span>
+                    <span>Full Stack Developer</span>
+                </span>
+
             </h2>
-            <p>As a web developer, I design and develop  dynamic websites, <br> ensuring seamless functionality and captivating user interfaces.</p>
+            <p>As a web developer, I design and develop dynamic websites, <br> ensuring seamless functionality and
+                captivating user interfaces.</p>
             <div class="slm-btn">
                 <button class="btn-grad">HIRE ME</button>
                 <div class="slm">
-                    <a href="https://github.com/Mamun-Ur-Rashid" target="_blank"><box-icon type='logo' name='github'></box-icon></a>
-                    <a href="https://www.linkedin.com/in/mamun-ur-rashid-3b7971253/" target="_blank"><box-icon name='linkedin' type='logo' ></box-icon></a>
-                    <a href="https://web.facebook.com/s.m.mamunur.rashid.615105" target="_blank"><box-icon name='facebook' type='logo' ></box-icon></a>
-                    <a href="#"><box-icon name='twitter' type='logo' ></box-icon></a>
+                    <a href="https://github.com/Mamun-Ur-Rashid" target="_blank"><box-icon type='logo'
+                            name='github'></box-icon></a>
+                    <a href="https://www.linkedin.com/in/mamun-ur-rashid-3b7971253/" target="_blank"><box-icon
+                            name='linkedin' type='logo'></box-icon></a>
+                    <a href="https://web.facebook.com/s.m.mamunur.rashid.615105" target="_blank"><box-icon
+                            name='facebook' type='logo'></box-icon></a>
+                    <a href="#"><box-icon name='twitter' type='logo'></box-icon></a>
                 </div>
             </div>
         </div>
@@ -58,7 +67,7 @@
         </div>
     </section>
     <!-- about me section -->
-     <section id="about">
+    <section id="about">
         <h2> About Me</h2>
         <div class="about">
             <div class="about-img">
@@ -66,10 +75,42 @@
             </div>
             <div class="about-info">
                 <h3>About Me</h3>
-                <p>Hello, my name is Mamun-Ur-Rashid. I am a passionate web developer with a strong focus on frontend development. I hold a Bachelor's degree in Computer Science Engineering and have been working in the field for several years. I am skilled in HTML, CSS, and JavaScript, and proficient in ReactJS for building dynamic and interactive user interfaces. I also have experience with backend technologies like Node.js and Express.js, as well as databases such as MongoDB. I enjoy taking on challenging projects and continuously expanding my skillset. With a keen eye for detail and a dedication to delivering high-quality work, I strive to create engaging and user-friendly web experiences</p>
+                <p>Hello, my name is Mamun-Ur-Rashid. I am a passionate web developer with a strong focus on frontend
+                    development. I hold a Bachelor's degree in Computer Science Engineering and have been working in the
+                    field for several years. I am skilled in HTML, CSS, and JavaScript, and proficient in ReactJS for
+                    building dynamic and interactive user interfaces. I also have experience with backend technologies
+                    like Node.js and Express.js, as well as databases such as MongoDB. I enjoy taking on challenging
+                    projects and continuously expanding my skillset. With a keen eye for detail and a dedication to
+                    delivering high-quality work, I strive to create engaging and user-friendly web experiences</p>
                 <button class="btn-grad">Download CV</button>
             </div>
         </div>
-     </section>
+    </section>
+    <!-- project section -->
+    <section>
+
+    </section>
+    <!-- contact me section -->
+    <section class="contact-container">
+        <h1>Contact Me</h1>
+        <div class="contact">
+            <FORM action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-title">
+                    <h4 class="">Contact Me</h4>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="649e8d94-f14a-4a20-b467-6e101c15fce7">
+
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit" class="btn-grad">Send Message</button>
+            </FORM>
+            <div class="contact-right">
+                <img src="./img/right_img.png" alt="">
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>

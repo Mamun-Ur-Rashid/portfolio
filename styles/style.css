@@ -3,7 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: 0;
+    font-family: sans-serif, serif;
 }
+
+
 
 /* style nav bar */
 nav{
@@ -55,7 +58,7 @@ nav a.active {
     padding: 20px;
     gap: 25px;
     color: white;
-    background-color: rgba(154, 157, 160, 0.788);
+    background-image: linear-gradient(to left, rgba(197, 210, 211, 0), rgba(153, 196, 199, 0.87));
 }
 .hero-info h1{
     font-size: 52px;
@@ -201,6 +204,72 @@ nav a.active {
     line-height: 1.5em;
     margin-bottom: 15px;
 }
+
+/* contact me section style */
+.contact-container {
+    background-image: linear-gradient(to right, rgba(197, 210, 211, 0), rgba(153, 196, 199, 0.87));
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: 100vh;
+}
+.contact-container h1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 45px;
+    font-weight: 800px;
+    text-transform: uppercase;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+ }
+ .contact-title h4 {
+    font-weight: 600px;
+    font-size: 30px;
+    margin-bottom: 5px;
+    color:rgba(95, 95, 231, 0.815) ;
+ }
+.contact-title hr {
+    border: none;
+    width: 150px;
+    height: 5px;
+    background-color: rgba(95, 95, 231, 0.815);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-inputs {
+    width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500px;
+    font-size: medium;
+    color: rgba(95, 95, 231, 0.815);
+    border-radius: 20px;
+}
+.contact-inputs:focus {
+    border: 2px solid rgba(95, 95, 231, 0.815);
+}
+.contact-inputs::placeholder{
+    color: lightgray;
+}
+.contact-left textarea {
+    height: 130px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-right img{
+    width: 500px;
+}
+
 /* gradient button */
 .btn-grad {background-image: linear-gradient(to right, rgba(95, 95, 231, 0.815) 0%, rgba(95, 95, 121, 0.815)  51%, rgba(95, 95, 231, 0.915)  100%)}
 .btn-grad {
@@ -215,7 +284,7 @@ nav a.active {
    border-radius: 10px;
    display: block;
  }
-
+ 
  .btn-grad:hover {
    background-position: right center; /* change the direction of the change here */
    color: #fff;
