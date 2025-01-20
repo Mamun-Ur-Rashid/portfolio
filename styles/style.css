@@ -6,7 +6,9 @@
     font-family: sans-serif, serif;
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 /* style nav bar */
 nav{
