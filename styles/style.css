@@ -138,7 +138,7 @@ nav a.active {
     width: 350px;
     height: 350px;
     background: rgba(95, 95, 231, 0.815);
-    padding: 5px;
+    padding: 10px;
     border-radius: 50%;
 }
 .heroImg .imgBox .imgItem {
